@@ -4,6 +4,20 @@ Preferential helps take the tedium out of adding preferences to your rails appli
 
 ## usage
 
+### Install your gem
+
+    gem 'preferential', :git => "git://github.com/scottymoon/preferential.git"
+
+### Create a migration
+
+    class AddPreferencesToUser < ActiveRecord::Migration
+      def change
+        add_column :users, :user_preferences, :string
+      end
+    end
+
+### Update your model
+
     Class User
       include Preferential
       pref_accessible :receive_account_email
