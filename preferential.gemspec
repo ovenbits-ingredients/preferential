@@ -26,6 +26,7 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/preferential.rb",
+    "preferential.gemspec",
     "test/helper.rb",
     "test/test_preferential.rb"
   ]
