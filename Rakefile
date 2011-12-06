@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "preferential"
   gem.homepage = "http://github.com/scottymoon/preferential"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Easily add preferences to your rails app.}
+  gem.description = %Q{Easily add preferences to your rails app.}
   gem.email = "scotty@scottymoon.com"
   gem.authors = ["Scotty Moon"]
   # dependencies defined in Gemfile
