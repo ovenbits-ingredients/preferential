@@ -15,6 +15,7 @@ module Preferential
 
   module ClassMethods
     def pref_accessible(*args)
+      self.attr_accessible(*args)
       define_method(:preferences){args}
       args.each do |method|
         define_method(method){get_preference(method)}
