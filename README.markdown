@@ -6,7 +6,7 @@ Preferential helps take the tedium out of adding preferences to your rails appli
 
 ### Install your gem
 
-    gem 'preferential', :git => "git://github.com/scottymoon/preferential.git"
+    gem 'preferential', :git => "git://github.com/ovenbits/preferential.git"
 
 ### Create a migration
 
